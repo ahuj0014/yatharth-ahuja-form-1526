@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Roboto');
+
+
+
+body {
+    background: linear-gradient(to bottom, skyblue, white);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size:
+}
+
+.masthead {
+    background: linear-gradient(to bottom, skyblue, white);
+    color: darkslategrey;
+    font-family: arial, sans-serif;
+    padding: 15px;
+    text-align: center;
+}
+
+.masthead nav ul li {
+    display: inline;
+    margin: 20px;
+}
+
+.masthead nav ul li:hover {
+    color: blue;
+    border-radius: 5px;
+}
+
+.masthead nav ul li a {
+    background-color: mintcream;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+
+.masthead nav ul li a:hover {
+    color: blue;
+    border-radius: 5px;
+}
+
+.row {
+    text-align: center;
+}
+
+.feedback {
+    text-align: center;
+    font-size: 20px;
+}
+
+.form {
+    text-align: center;
+}
+
+form input,
+textarea {
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    line-height: 1.5rem;
+    font-size: 1em;
+}
+
+#submit {
+    font-style: oblique;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+input[type="button"],
+input[type="submit"] {
+    background-color: #B7B7B7;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    color: black;
+}
+
+label {
+    display: block;
+}
+
+
+a {
+    text-decoration: none;
+    list-style-type: none;
+    color: darkblue;
+}
+
+.address {
+    color: cornflowerblue;
+    font-family: arial, sans-serif;
+    padding: 15px;
+}
+
+
+footer a {
+    padding: 20 50px;
+
+}
+
+footer p {
+    color: navy;
+    text-align: center;
+}
+
+@media only screen and (min-width: 35rem) {
+    .container {
+        width: 35rem;
+    }
